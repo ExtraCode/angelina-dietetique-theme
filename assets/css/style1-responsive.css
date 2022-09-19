@@ -1,0 +1,25 @@
+@media(min-width: 992px){
+
+    .forme3{
+        position: absolute;
+        top: 0px;
+        width: 100%;
+    }
+
+    .forme4{
+        position: absolute;
+        top: 0px;
+    }
+
+    .forme5{
+        position: absolute;
+        bottom: 0px;
+        right: 325px;
+    }
+
+    .forme6{
+        position: absolute;
+        bottom: 0px;
+    }
+
+}

@@ -1,0 +1,22 @@
+@media(min-width: 992px){
+
+    .navbar{
+        background-color: #8cbeaa;
+    }
+
+    .navbar-nav {
+        border: none;
+    }
+
+    .navbar a{
+        color: white;
+    }
+
+    .logo{
+        width: 180px
+    }
+
+    .nav-link:focus, .nav-link:hover{
+        color: rgb(250 211 212);
+    }
+}
