@@ -11,14 +11,12 @@
     <!-- All pages-->
     <?php wp_head() ?>
 
-    <link rel="stylesheet" href="<?= get_stylesheet_directory_uri() ?>/assets/css/all-pages.css">
-    <link rel="stylesheet" href="<?= get_stylesheet_directory_uri() ?>/assets/css/all-pages-responsive.css">
 </head>
 
 <body>
 
     <!-- logo et menu-->
-    <div class="logo-nav-container">
+    <div class="logo-nav-container pt-4">
         <img class="logo" src="<?= get_stylesheet_directory_uri() ?>/assets/images/logo-angelina-dieteticienne-500x500.png" alt="logo angelina dieteticienne">
 
         <!-- navbar -->

@@ -1,0 +1,74 @@
+.main-content {
+  padding: 0px 60px;
+}
+
+.forme {
+  position: absolute;
+}
+.forme1 {
+  top: 0;
+  right: 0;
+  width: 43%;
+}
+@media (min-width: 992px) {
+  .forme1 {
+    width: 43%;
+  }
+}
+@media (min-width: 1240px) {
+  .forme1 {
+    width: 28%;
+  }
+}
+@media (min-width: 1950px) {
+  .forme1 {
+    width: 23%;
+  }
+}
+.forme2 {
+  top: 0;
+  width: 47%;
+}
+@media (min-width: 992px) {
+  .forme2 {
+    width: 47%;
+  }
+}
+.forme3 {
+  bottom: 0;
+  width: 27%;
+}
+@media (min-width: 992px) {
+  .forme3 {
+    width: 25%;
+  }
+}
+@media (min-width: 1164px) {
+  .forme3 {
+    width: 20%;
+  }
+}
+.forme4 {
+  bottom: 0;
+  right: 0;
+  width: 52%;
+}
+@media (min-width: 992px) {
+  .forme4 {
+    width: 42%;
+  }
+}
+@media (min-width: 1240px) {
+  .forme4 {
+    width: 37%;
+  }
+}
+
+@media (min-width: 1240px) {
+  footer {
+    padding-top: 110px;
+    padding-bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=style1.css.map */

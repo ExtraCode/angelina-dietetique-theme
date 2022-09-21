@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "High Tower Text";
+  src: url("../fonts/high-tower-text.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../fonts/SourceSansPro-Regular.ttf") format("truetype");
+}
+body {
+  background-color: rgba(247, 247, 247, 0.3803921569);
+  position: relative;
+  min-height: 100vh;
+}
+
+body p {
+  font-family: "Source Sans Pro", sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "High Tower Text", serif !important;
+}
+
+.logo {
+  width: 195px;
+}
+@media (min-width: 992px) {
+  .logo {
+    width: 180px;
+  }
+}
+
+.logo-nav-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.link-no-decoration {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ------------ MENU ------------ */
+.navbar {
+  justify-content: center;
+}
+@media (min-width: 992px) {
+  .navbar {
+    background-color: #8cbeaa;
+  }
+}
+@media (min-width: 992px) {
+  .navbar a {
+    color: white;
+    font-size: 23px;
+  }
+}
+
+.navbar-nav {
+  border: 1px dashed #fad3d4;
+  border-top: none;
+}
+@media (min-width: 992px) {
+  .navbar-nav {
+    border: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-link:focus, .nav-link:hover {
+    color: rgb(250, 211, 212);
+  }
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* ------------ FOOTER ------------ */
+footer {
+  padding: 40px 0 70px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #818181;
+}
+
+/*# sourceMappingURL=all-pages.css.map */
