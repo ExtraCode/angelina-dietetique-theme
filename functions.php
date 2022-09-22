@@ -33,12 +33,12 @@ add_action('wp_enqueue_scripts', function(){
 	wp_enqueue_style( 'bootstrap' );
     wp_register_script('bootstrap','https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js', [], false, true);
     wp_enqueue_script('bootstrap');
-	wp_register_style('allpages',get_stylesheet_directory_uri() . '/assets/scss/all-pages.css', [], 2);
+	wp_register_style('allpages',get_stylesheet_directory_uri() . '/assets/scss/all-pages.css', [], 3);
 	wp_enqueue_style( 'allpages' );
 
 	// charge le style selon le template de page chargé
 	if ( is_page_template( 'templates/style1.php' ) ) {
-		wp_register_style( 'style1', get_stylesheet_directory_uri() . '/assets/scss/style1.css',[],2);
+		wp_register_style( 'style1', get_stylesheet_directory_uri() . '/assets/scss/style1.css',[],3);
 		wp_enqueue_style( 'style1' );
 	}
 
