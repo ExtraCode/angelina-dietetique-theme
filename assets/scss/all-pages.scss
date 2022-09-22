@@ -109,10 +109,24 @@ $menu-color: rgb(250 211 212);
 
     &-titre{
         padding-top: 25px;
+
+        @media(min-width: 768px){
+            padding-top: 35px;
+        }
+
+        @media(min-width: 1024px){
+            padding-top: 50px;
+        }
+
     }
 
     &-texte{
         padding: 0px 70px;
+
+        @media(min-width: 768px){
+            padding: 0px 55px;
+        }
+
     }
 
 }

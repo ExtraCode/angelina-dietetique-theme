@@ -97,8 +97,23 @@ h1, h2, h3, h4, h5, h6 {
 .box-forme-rond-titre {
   padding-top: 25px;
 }
+@media (min-width: 768px) {
+  .box-forme-rond-titre {
+    padding-top: 35px;
+  }
+}
+@media (min-width: 1024px) {
+  .box-forme-rond-titre {
+    padding-top: 50px;
+  }
+}
 .box-forme-rond-texte {
   padding: 0px 70px;
+}
+@media (min-width: 768px) {
+  .box-forme-rond-texte {
+    padding: 0px 55px;
+  }
 }
 
 /* ------------ FOOTER ------------ */
