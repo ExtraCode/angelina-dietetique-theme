@@ -104,6 +104,19 @@ $menu-color: rgb(250 211 212);
     box-shadow: none;
 }
 
+/* ------------ BOX FORME ROND ------------ */
+.box-forme-rond{
+
+    &-titre{
+        padding-top: 25px;
+    }
+
+    &-texte{
+        padding: 0px 70px;
+    }
+
+}
+
 /* ------------ FOOTER ------------ */
 footer{
     padding: 40px 0 70px 0;

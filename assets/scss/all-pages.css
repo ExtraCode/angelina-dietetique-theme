@@ -93,6 +93,14 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: none;
 }
 
+/* ------------ BOX FORME ROND ------------ */
+.box-forme-rond-titre {
+  padding-top: 25px;
+}
+.box-forme-rond-texte {
+  padding: 0px 70px;
+}
+
 /* ------------ FOOTER ------------ */
 footer {
   padding: 40px 0 70px 0;
