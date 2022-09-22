@@ -64,6 +64,19 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px dashed #fad3d4;
   border-top: none;
 }
+.navbar-nav .menu-item {
+  display: flex;
+  align-items: center;
+}
+.navbar-nav .menu-item:last-child .menu-li-sep {
+  display: none;
+}
+.navbar-nav .menu-item .menu-li-sep {
+  color: white;
+}
+.navbar-nav .current-menu-item a {
+  color: rgb(250, 211, 212);
+}
 @media (min-width: 992px) {
   .navbar-nav {
     border: none;

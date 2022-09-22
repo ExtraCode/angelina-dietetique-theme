@@ -45,6 +45,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 /* ------------ MENU ------------ */
+$menu-color: rgb(250 211 212);
 
 .navbar{
     justify-content: center;
@@ -65,6 +66,27 @@ h1,h2,h3,h4,h5,h6{
     border: 1px dashed #fad3d4;
     border-top: none;
 
+    & .menu-item{
+        display: flex;
+        align-items: center;
+
+        &:last-child{
+
+            & .menu-li-sep{
+                display: none;
+            }
+
+        }
+
+        & .menu-li-sep{
+            color: white;
+        }
+    }
+
+    & .current-menu-item a{
+        color: $menu-color;
+    }
+
     @media(min-width: 992px){
         border: none;
     }
@@ -73,7 +95,7 @@ h1,h2,h3,h4,h5,h6{
 .nav-link:focus, .nav-link:hover{
 
     @media(min-width: 992px){
-        color: rgb(250 211 212);
+        color: $menu-color;
     }
 
 }

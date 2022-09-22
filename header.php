@@ -31,7 +31,8 @@
 				    <?php wp_nav_menu([
 					    'theme_location' => "header",
 					    "container" => false,
-					    "menu_class" => "navbar-nav"
+					    "menu_class" => "navbar-nav",
+					    'after' => '<span class="menu-li-sep">|</span>'
 				    ]); ?>
                 </div>
             </div>
