@@ -8,6 +8,8 @@
     src: url("../fonts/SourceSansPro-Regular.ttf") format('truetype');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 body{
     background-color: #f7f7f761;
     position: relative;
@@ -19,7 +21,7 @@ body p{
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-family: "High Tower Text", serif !important;
+    font-family: 'Raleway', sans-serif; !important;
 }
 
 .logo{
