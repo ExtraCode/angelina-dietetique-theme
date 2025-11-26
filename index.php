@@ -10,7 +10,7 @@
             <div class="col-4">
                 <?php the_post(); ?>
 
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 18rem; margin-bottom:20px;">
                     <img src="<?php the_post_thumbnail_url('card-header'); ?>" class="card-img-top" style="height: auto">
                     <div class="card-body">
                         <h5 class="card-title"><?php the_title(); ?></h5>
