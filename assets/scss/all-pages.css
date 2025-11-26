@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 
-.page-item a {
+.page-item a, .page-item span {
     display: flex;
     justify-content: center;
     align-items: center;
