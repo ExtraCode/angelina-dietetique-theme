@@ -154,7 +154,19 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
+.page-item:first-child .page-link{
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
 
+.page-item:last-child .page-link{
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
 
 /* ------------ FOOTER ------------ */
 footer {
